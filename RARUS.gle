@@ -1,0 +1,25 @@
+size 10 10
+
+begin graph
+   scale auto
+
+   title "RARUS's Spirograph"
+
+   data "RARUS_output1.txt"
+   d1 line lwidth 0.01 color red
+
+   data "RARUS_output2.txt"
+   d2 line lwidth 0.02 color lime
+
+   data "RARUS_output3.txt"
+   d3 line  lwidth 0.03 color turquoise
+
+   data "RARUS_output4.txt"
+   d4 line  lwidth 0.01 color orange
+
+   data "RARUS_output5.txt"
+   d5 line  lwidth 0.01 color violet
+
+
+end graph
+
